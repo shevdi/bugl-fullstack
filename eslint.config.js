@@ -22,4 +22,7 @@ export default defineConfig([
   reactHooks.configs['recommended-latest'],
   reactRefresh.configs.vite,
   eslintConfigPrettier,
+  {
+    ignores: ['backend/'],
+  },
 ])
